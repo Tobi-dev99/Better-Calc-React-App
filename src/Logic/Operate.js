@@ -1,4 +1,4 @@
-
+import splitMulti from './SplitMultiple';
 const math = require('mathjs');
 
 function isNumber(item) {
@@ -58,6 +58,26 @@ const operate = (obj, btnName) => {
           expr: obj.expr + btnName,
           lastPressed: btnName
       }
+  }
+
+  if(btnName === '.'){
+    let numberArr = splitMulti(obj.expr, ['+','-','*','/']);
+    if(obj.expr === ''){
+      return {
+        expr: '0.',
+        lastPressed: btnName
+      }
+    }
+
+    if(!numberArr[numberArr.length - 1].includes('.')){
+      return {
+        expr: obj.expr + '.',
+        lastPressed: btnName
+      }
+    }else {
+      return {};
+    }
+
   }
 };
 
