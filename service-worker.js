@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Better-Calc-React-App/precache-manifest.74de17aa987ddae8aff37ce8b0d9589d.js"
+  "/Better-Calc-React-App/precache-manifest.15edaf06b78751324b95400d0126e0f4.js"
 );
 
 self.addEventListener('message', (event) => {
