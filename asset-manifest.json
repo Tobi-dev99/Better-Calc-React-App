@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.acf08fbe.chunk.css",
-    "main.js": "/static/js/main.3ca20ffa.chunk.js",
-    "main.js.map": "/static/js/main.3ca20ffa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.82157934.js",
-    "runtime-main.js.map": "/static/js/runtime-main.82157934.js.map",
-    "static/js/2.708489c4.chunk.js": "/static/js/2.708489c4.chunk.js",
-    "static/js/2.708489c4.chunk.js.map": "/static/js/2.708489c4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a94dcbaf3ca800f70dfd1551eb470178.js": "/precache-manifest.a94dcbaf3ca800f70dfd1551eb470178.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.acf08fbe.chunk.css.map": "/static/css/main.acf08fbe.chunk.css.map",
-    "static/js/2.708489c4.chunk.js.LICENSE.txt": "/static/js/2.708489c4.chunk.js.LICENSE.txt"
+    "main.css": "/Better-Calc-React-App/static/css/main.acf08fbe.chunk.css",
+    "main.js": "/Better-Calc-React-App/static/js/main.f881e84c.chunk.js",
+    "main.js.map": "/Better-Calc-React-App/static/js/main.f881e84c.chunk.js.map",
+    "runtime-main.js": "/Better-Calc-React-App/static/js/runtime-main.5789092d.js",
+    "runtime-main.js.map": "/Better-Calc-React-App/static/js/runtime-main.5789092d.js.map",
+    "static/js/2.708489c4.chunk.js": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js",
+    "static/js/2.708489c4.chunk.js.map": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js.map",
+    "index.html": "/Better-Calc-React-App/index.html",
+    "precache-manifest.74de17aa987ddae8aff37ce8b0d9589d.js": "/Better-Calc-React-App/precache-manifest.74de17aa987ddae8aff37ce8b0d9589d.js",
+    "service-worker.js": "/Better-Calc-React-App/service-worker.js",
+    "static/css/main.acf08fbe.chunk.css.map": "/Better-Calc-React-App/static/css/main.acf08fbe.chunk.css.map",
+    "static/js/2.708489c4.chunk.js.LICENSE.txt": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.82157934.js",
+    "static/js/runtime-main.5789092d.js",
     "static/js/2.708489c4.chunk.js",
     "static/css/main.acf08fbe.chunk.css",
-    "static/js/main.3ca20ffa.chunk.js"
+    "static/js/main.f881e84c.chunk.js"
   ]
 }
