@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Display from './components/Display/Display';
+import ButtonPad from './components/ButtonPad/ButtonPad';
+import Operate from '../src/Logic/Operate';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+class App extends Component {
+
+  state={
+    expr : '',
+    lastPressed: '',
+    lastExpr: ''
+  }
+
+  takeExpressionHandler = (btnName) => {
+    this.setState(Operate(this.state , btnName));
+  }
+  
+    render(){
+      return(
+      <div className="App">
+      <Display expression = {this.state.expr} lastExpression = {this.state.lastExpr}/>
+      <ButtonPad clicked = {this.takeExpressionHandler}/>
     </div>
-  );
+      )
+    }
 }
 
 export default App;

@@ -1,0 +1,12 @@
+.ButtonPad{
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 69%;
+}
+
+.ButtonPad div {
+    display: flex;
+    justify-content: space-evenly;
+}
