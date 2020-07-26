@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Better-Calc-React-App/static/css/main.acf08fbe.chunk.css",
-    "main.js": "/Better-Calc-React-App/static/js/main.da0d4607.chunk.js",
-    "main.js.map": "/Better-Calc-React-App/static/js/main.da0d4607.chunk.js.map",
+    "main.css": "/Better-Calc-React-App/static/css/main.e32bea30.chunk.css",
+    "main.js": "/Better-Calc-React-App/static/js/main.f491597d.chunk.js",
+    "main.js.map": "/Better-Calc-React-App/static/js/main.f491597d.chunk.js.map",
     "runtime-main.js": "/Better-Calc-React-App/static/js/runtime-main.5789092d.js",
     "runtime-main.js.map": "/Better-Calc-React-App/static/js/runtime-main.5789092d.js.map",
-    "static/js/2.708489c4.chunk.js": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js",
-    "static/js/2.708489c4.chunk.js.map": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js.map",
+    "static/js/2.e9f688c5.chunk.js": "/Better-Calc-React-App/static/js/2.e9f688c5.chunk.js",
+    "static/js/2.e9f688c5.chunk.js.map": "/Better-Calc-React-App/static/js/2.e9f688c5.chunk.js.map",
     "index.html": "/Better-Calc-React-App/index.html",
-    "precache-manifest.15edaf06b78751324b95400d0126e0f4.js": "/Better-Calc-React-App/precache-manifest.15edaf06b78751324b95400d0126e0f4.js",
+    "precache-manifest.80f3ec95cd1c8ed570fc6884245fc284.js": "/Better-Calc-React-App/precache-manifest.80f3ec95cd1c8ed570fc6884245fc284.js",
     "service-worker.js": "/Better-Calc-React-App/service-worker.js",
-    "static/css/main.acf08fbe.chunk.css.map": "/Better-Calc-React-App/static/css/main.acf08fbe.chunk.css.map",
-    "static/js/2.708489c4.chunk.js.LICENSE.txt": "/Better-Calc-React-App/static/js/2.708489c4.chunk.js.LICENSE.txt"
+    "static/css/main.e32bea30.chunk.css.map": "/Better-Calc-React-App/static/css/main.e32bea30.chunk.css.map",
+    "static/js/2.e9f688c5.chunk.js.LICENSE.txt": "/Better-Calc-React-App/static/js/2.e9f688c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5789092d.js",
-    "static/js/2.708489c4.chunk.js",
-    "static/css/main.acf08fbe.chunk.css",
-    "static/js/main.da0d4607.chunk.js"
+    "static/js/2.e9f688c5.chunk.js",
+    "static/css/main.e32bea30.chunk.css",
+    "static/js/main.f491597d.chunk.js"
   ]
 }
