@@ -32,6 +32,50 @@ const operate = (obj, btnName) => {
     };
   };
 
+  if (btnName === "⌫") {
+    if (obj.expr === "") {
+      return {};
+    }
+    const newExpr = obj.expr.slice(0, -1);
+    const newLastPressed = newExpr.length > 0 ? newExpr.slice(-1) : "";
+    return {
+      expr: newExpr,
+      lastPressed: newLastPressed
+    };
+  }
+
+  if (btnName === "+/-") {
+    if (obj.expr === "") {
+      return {};
+    }
+    try {
+      const result = math.evaluate(obj.expr) * -1;
+      const resStr = result.toString();
+      return {
+        expr: resStr,
+        lastPressed: resStr.slice(-1)
+      };
+    } catch (e) {
+      return {};
+    }
+  }
+
+  if (btnName === "%") {
+    if (obj.expr === "") {
+      return {};
+    }
+    try {
+      const result = math.evaluate(obj.expr) / 100;
+      const resStr = result.toString();
+      return {
+        expr: resStr,
+        lastPressed: resStr.slice(-1)
+      };
+    } catch (e) {
+      return {};
+    }
+  }
+
   if(btnName === '='){
       const result = math.evaluate(obj.expr);
       if(obj.expr !== ''){
